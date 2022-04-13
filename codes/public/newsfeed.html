@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News feed</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src=javascripts/script.js></script>
+</head>
+
+<body onload="loadNewsList(1)">
+    <div class="col-1">
+        <br>
+        <p>Greetings!</p>
+    </div>
+    <div class="col-2">
+        <header id="title">
+            <p>Update yourself!</p>
+        </header>
+        <div id="header">
+            <input type="text" id="search_string" name='search_string'>
+            <button onclick="loadNewsList(1)">Search news headlines</button>
+            <a href="" onclick="" id="login_link"></a>
+        </div>
+
+        <div id="news">
+
+        </div>
+
+        <div id="pageindex">
+
+        </div>
+    </div>
+    <div class="col-3" id="show_time">
+    </div>
+</body>
+
+</html>
