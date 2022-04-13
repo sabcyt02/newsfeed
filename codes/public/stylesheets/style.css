@@ -1,0 +1,131 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: hwb(256 26% 15% / 0.877);
+    padding-right: 10px;
+}
+
+#headline {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#headline:hover {
+    background-color: rgba(159, 231, 236, 0.863);
+    color: black;
+}
+
+p {
+    font-weight: normal;
+}
+
+input {
+    margin-inline: 2%;
+    width: 35%;
+}
+
+[class*='col-'] {
+    float: left;
+}
+
+
+/* default layout*/
+
+.col-1 {
+    width: 20%;
+}
+
+.col-2 {
+    width: 60%;
+}
+
+.col-3 {
+    width: 20%;
+}
+
+
+/*mobile screen*/
+
+@media only screen and (max-width: 750px) {
+    .col-1 {
+        width: 100%;
+    }
+    .col-2 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+}
+
+#title {
+    font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background: rgb(155, 190, 207);
+    text-align: center;
+}
+
+#header {
+    text-align: center;
+}
+
+#news {
+    font: 14px "Lucida Console", Helvetica, Arial, sans-serif;
+}
+
+#pageindex {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background: rgb(155, 190, 207);
+    color: white;
+    font-weight: bold;
+}
+
+#topNews {
+    text-align: center;
+}
+
+#comments {
+    font-family: Lucida Sans Unicode;
+}
+
+#go_back {
+    position: absolute;
+    text-align: left;
+    bottom: 15%;
+    color: hwb(256 26% 15% / 0.877);
+}
+
+.comment1 {
+    overflow: auto;
+    border: 3px;
+}
+
+.img {
+    float: left;
+    padding-right: 1%;
+}
+
+.person {
+    float: left;
+}
+
+#user_comment {
+    text-align: center;
+}
+
+#login_status {
+    text-align: center;
+}
+
+#login_page {
+    text-align: center;
+}
