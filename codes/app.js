@@ -7,7 +7,7 @@ var cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
 var monk = require('monk');
-var db = monk('127.0.0.1:27017/assignment1');
+var db = monk('127.0.0.1:27017/newsfeed');
 
 app.use(express.static('public'), function(req, res, next) {
     req.db = db;
