@@ -6,7 +6,7 @@ It implements a few functions, such as news lists and single news entry displayi
 
 Please visit http://127.0.0.1:8081/newsfeed.html to access the application
 
-structure of the database assignment1:
+structure of the database newsfeed:
 
 userList
 {'_id': xxx, 'name': 'xxx', 'password': 'xxx', 'icon': 'images/xxx'}
